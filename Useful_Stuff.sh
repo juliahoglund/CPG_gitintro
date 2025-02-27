@@ -8,8 +8,5 @@ echo "Wow, this sure is some useful code!"
 
 ANIMAL="yes"
 
-if (${ANIMAL} == "yes"); do
-echo "yep, that's an animal";
-else;
-echo "nah yeah nah that's not an animal";
-done
+echo "Is this an animal?"
+echo $ANIMAL
